@@ -27,7 +27,7 @@ class ElectricCar(Car):
         super.init(self, make, model, year)
 
 
-my_new_car= Car("audi", "q4", 2018)
+my_new_car= Car("volvo", "q4", 2018)
 
 print(my_new_car.get_descriptive_name())
 my_new_car.update_odometer(23500)
